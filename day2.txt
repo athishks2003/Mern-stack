@@ -1,0 +1,97 @@
+<html>
+    <head>
+       <style>
+            .box
+            {
+                border: 5px solid palevioletred;
+                display: inline-block;
+                background-color: aqua;
+                padding: 5px 5px 5px 5px;
+                margin-top: 125px;
+                margin-left: 350px;
+            }
+            .container > div
+            {
+               padding: 10px;
+               margin: 40px;
+               
+            }
+            .container
+            {
+                
+                display: flex;
+                
+            }
+            .grid123
+            {
+               display: grid;
+               grid-template-columns: auto auto auto;
+            }
+            .div1
+            {
+                grid-column-start: 1;
+                grid-column-end: 4;
+                border: 5px solid black;
+                text-align: center;
+                background-color: antiquewhite;
+            }
+            .div2
+            {
+                grid-row-start: 2;
+                grid-row-end: 4;
+                border: 5px solid black;
+                text-align: center;
+                padding: auto auto auto auto;
+                background-color: azure;
+            }
+            .div3
+            {
+                border: 5px solid black;
+                text-align: center;
+                background-color: chartreuse;
+            }
+            .div4
+            {
+                border: 5px solid black;
+                text-align: center;
+                background-color: cornflowerblue;
+            }
+            .div5
+            {
+                grid-column-start: 2;
+                grid-column-end: 4;
+                border: 5px solid black;
+                text-align: center;
+                background-color: darkgoldenrod;
+            }
+            p{
+                padding: 50%;
+            }
+            
+       </style>
+    </head>
+    <body>
+        
+        <h1 class="box">Welcome to the class</h1>
+        <div class="container">
+            <div style="border: 5px solid brown"><img height="300px" width="300"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT26MP9f5YdlTfN-2pikGFAXSyfPfT7l-wdhA&s" alt=""></div>
+            <div style="border: 5px solid brown"><img 
+                height="300px" width="300" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg" alt=""></div>
+            <div style="border: 5px solid brown"><img 
+                height="300px" width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLQUQ6g6NjGqj3qncgsJGpxzzRrL_qDAc1qQ&s" alt=""></div>
+            <div style="border: 5px solid brown"><img height="300px" width="300" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsIz4qZKTOplGKCIt860B8HP3mTBMZGACNFg&s" alt=""></div>
+
+        </div>
+        <div class="grid123">
+         <div class="div1">1</div>
+         <div class="div2"><p>2</p></div>
+         <div class="div3">3</div>
+         <div class="div4">4</div>
+         <div class="div5">5</div>
+         </div>
+
+        </div>
+        
+    </body>
+</html>

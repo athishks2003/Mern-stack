@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <style>
+                            
+            
+                .container
+                {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                
+            
+            .p1
+            {
+              border: 5px solid black;
+              height: 100px;
+              width: 350px;
+              background-color: blueviolet;
+            }
+            .p2
+            {
+              border: 5px solid black;
+              height: 100px;
+              width: 350px;
+              background-color: rgb(227, 7, 22);
+            }
+            .p3
+            {
+              border: 5px solid black;
+              height: 100px;
+              width: 350px;
+              background-color: rgb(16, 210, 145);
+            }
+            .p4
+            {
+                border: 5px solid black;
+              height: 100px;
+              width: 350px;
+              background-color: rgb(54, 5, 134);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="p1"></div>
+            <div class="p2"></div>
+            <div class="p3"></div>
+            <div class="p4"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <style>
+        h1
+        {
+            text-align: center;
+        }
+    </style>
+    <title>Demo page</title>
+</head>
+<body>
+    <h1>abcd</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGK3diR3Zi-mnOXEaj-3ewmFyRYVxGzVzZw&s" alt="Network error" usemap="#mapping"> 
+    <map name="mapping">
+        <area shape="circle" coords="30,44,100" href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=674842289437&hvpos=&hvnetw=g&hvrand=7327437556227900460&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9182246&hvtargid=kwd-10573980&hydadcr=14453_2316415&gad_source=1">
+    </map>
+    
+</body>
+</html>

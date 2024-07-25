@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <style>
+        .div
+        {
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            background-color: blue;
+            animation-name: anime;
+            transition: transform;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            transition-duration: 1s;
+        }
+        /*.div1,.div2,.div3
+        {
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+        }*/
+        /*div:hover{
+            transform: rotate(180deg);
+        }*/
+        @keyframe anime1
+        {
+
+        }
+        @keyframes anime 
+        {
+            0% { background-color: blue; left: 0px; top: 0px;}
+            25% { background-color: rgb(13, 222, 97); left: 500px; top: 0px;}
+            50% { background-color: rgb(242, 255, 0); left: 500px; top: 500px;}
+            75% { background-color: rgb(255, 0, 0); left: 0px; top: 500px;}
+            100% { background-color: rgb(200, 15, 194); left: 0px; top: 0px;}
+           
+            
+            
+        } 
+       </style>
+    </head>
+    <body>
+        <div class="div">
+
+        </div>
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+    </body>
+</html>
